@@ -1,0 +1,138 @@
+/* TAG SELECTORS */ 
+
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  color: #8f8f8f;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* CONTAINER */
+
+.container-fluid {
+  padding: 2% 15%;
+}
+
+/* ------------------------------ WEB LAYOUT------------------------------------- */
+
+/* NAVIGATION BAR */
+
+.navbar {
+  padding: 0 0 3rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.text-link {
+  color: #4f7fa8;
+}
+
+/* HERO */
+
+#hero {
+  height: 600px;
+  width: auto;
+}
+
+#hero img {
+  width: 100%;
+  
+}
+
+.fill {
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-image: url('../images/hero.jpg');
+}
+
+#hero h1 {
+  color: white;
+  text-align: center;
+  margin-top: 120px;
+}
+
+/* HEADINGS */
+
+.big-heading {
+  font-weight: 900;
+  line-height: 1.5;
+  font-size: 3.5rem;
+}
+
+.small-heading {
+  font-weight: 900;
+  line-height: 1.5;
+  font-size: 2rem;
+}
+
+/* PROPIEDADES */
+
+#propiedades {
+  margin: 3% 2%;
+  text-align: center;
+}
+
+#propiedades h1 {
+  margin-bottom: 50px;
+  color: #a87f3e
+}
+
+.propiedades-column {
+  padding: 3% 2%;
+}
+
+.card-deck {
+  padding: 3% 2%;
+}
+
+/* GOOGLE MAPS */
+
+#gmaps {
+  background-color: #4f7fa8;
+  height: 800px;
+}
+
+#gmaps {
+  padding: 3% 2%;
+}
+
+#gmaps h1 {
+  color: white;
+}
+
+#map {
+  width: 500px;
+  height: 300px;
+}
